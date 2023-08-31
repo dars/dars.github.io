@@ -20,20 +20,21 @@
     var CONFIG = {"hostname":"code4soul.cc","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="就需要一個地方紀錄跟寫下自己學習的紀錄跟一些雜七雜八的心得感想的地方，所以就開了這個 blog寫程式這件事，總是那麼讓人又愛又恨，他是工作是愛好也是生活 沒預計這邊會維持多久，極大的可能發了兩、三篇我就會懶得寫了，熱血寫 blog 的年代已經是 20 年前的事情了吧但是單純寫在筆記軟體裡面又會覺得少了點什麼感覺，也不是想要讓很多人來看，我想大概是以前作個人網站的習慣，就是想做想放出來不管有多少人看">
+  <meta name="description" content="官方連結 在製作 app 版面的時候或者是 web 時我們都會需要一些填空元素來撐開一個空間，如果老一點的 web 工程師大概還記得那個年代我們都會有一個 1px 長寬的透明 gif 檔用來在個各地方拿來塞出空間來，在那個 css 還沒有那麼盛行的年代，排版都還在 table 的遙遠年代 使用方式1Spacer(&amp;#123;Key? key, int flex &#x3D; 1&amp;#125;)  flex 決">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://code4soul.cc/2023/08/30/hello-world/index.html">
+<meta property="og:title" content="[widget] Spacer">
+<meta property="og:url" content="https://code4soul.cc/2023/09/01/widget-Spacer/index.html">
 <meta property="og:site_name" content="code4soul">
-<meta property="og:description" content="就需要一個地方紀錄跟寫下自己學習的紀錄跟一些雜七雜八的心得感想的地方，所以就開了這個 blog寫程式這件事，總是那麼讓人又愛又恨，他是工作是愛好也是生活 沒預計這邊會維持多久，極大的可能發了兩、三篇我就會懶得寫了，熱血寫 blog 的年代已經是 20 年前的事情了吧但是單純寫在筆記軟體裡面又會覺得少了點什麼感覺，也不是想要讓很多人來看，我想大概是以前作個人網站的習慣，就是想做想放出來不管有多少人看">
+<meta property="og:description" content="官方連結 在製作 app 版面的時候或者是 web 時我們都會需要一些填空元素來撐開一個空間，如果老一點的 web 工程師大概還記得那個年代我們都會有一個 1px 長寬的透明 gif 檔用來在個各地方拿來塞出空間來，在那個 css 還沒有那麼盛行的年代，排版都還在 table 的遙遠年代 使用方式1Spacer(&amp;#123;Key? key, int flex &#x3D; 1&amp;#125;)  flex 決">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-08-29T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-08-30T08:44:27.396Z">
+<meta property="article:published_time" content="2023-08-31T16:58:00.000Z">
+<meta property="article:modified_time" content="2023-08-31T17:22:00.000Z">
 <meta property="article:author" content="くま くま 熊">
-<meta property="article:tag" content="碎唸">
+<meta property="article:tag" content="flutter">
+<meta property="article:tag" content="widget">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://code4soul.cc/2023/08/30/hello-world/">
+<link rel="canonical" href="https://code4soul.cc/2023/09/01/widget-Spacer/">
 
 
 <script id="page-configurations">
@@ -46,7 +47,7 @@
   };
 </script>
 
-  <title>Hello World | code4soul</title>
+  <title>[widget] Spacer | code4soul</title>
   
 
 
@@ -153,7 +154,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://code4soul.cc/2023/08/30/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://code4soul.cc/2023/09/01/widget-Spacer/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -166,7 +167,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          [widget] Spacer
         </h1>
 
         <div class="post-meta">
@@ -177,7 +178,16 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2023-08-30 00:00:00 / Modified: 16:44:27" itemprop="dateCreated datePublished" datetime="2023-08-30T00:00:00+08:00">2023-08-30</time>
+              <time title="Created: 2023-09-01 00:58:00 / Modified: 01:22:00" itemprop="dateCreated datePublished" datetime="2023-09-01T00:58:00+08:00">2023-09-01</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Blog/" itemprop="url" rel="index"><span itemprop="name">Blog</span></a>
+                </span>
             </span>
 
           
@@ -191,8 +201,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>就需要一個地方紀錄跟寫下自己學習的紀錄跟一些雜七雜八的心得感想的地方，所以就開了這個 blog<br>寫程式這件事，總是那麼讓人又愛又恨，他是工作是愛好也是生活</p>
-<p>沒預計這邊會維持多久，極大的可能發了兩、三篇我就會懶得寫了，熱血寫 blog 的年代已經是 20 年前的事情了吧<br>但是單純寫在筆記軟體裡面又會覺得少了點什麼感覺，也不是想要讓很多人來看，我想大概是以前作個人網站的習慣，就是想做想放出來不管有多少人看到，就是種樂趣吧 :P</p>
+        <p><a target="_blank" rel="noopener" href="https://api.flutter.dev/flutter/widgets/Spacer-class.html">官方連結</a></p>
+<p>在製作 app 版面的時候或者是 web 時我們都會需要一些填空元素來撐開一個空間，如果老一點的 web 工程師大概還記得那個年代我們都會有一個 1px 長寬的透明 gif 檔用來在個各地方拿來塞出空間來，在那個 css 還沒有那麼盛行的年代，排版都還在 table 的遙遠年代</p>
+<h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Spacer(&#123;Key? key, <span class="built_in">int</span> flex = <span class="number">1</span>&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>flex 決定在既有空間裡可以分配到的空間大小的比例，沒有設定的話就平均分配，這部份的該念在 CSS 裡的觀念其實是差不多的</p>
+<p><a target="_blank" rel="noopener" href="https://dartpad.dev/e6b700e61873dcfad9ef9cdaecf3249e">程式範例</a></p>
 
     </div>
 
@@ -202,7 +216,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E7%A2%8E%E5%94%B8/" rel="tag"># 碎唸</a>
+              <a href="/tags/flutter/" rel="tag"># flutter</a>
+              <a href="/tags/widget/" rel="tag"># widget</a>
           </div>
 
         
@@ -210,11 +225,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2023/09/01/widget-Spacer/" rel="next" title="[widget] Spacer">
-      [widget] Spacer <i class="fa fa-chevron-right"></i>
+    <a href="/2023/08/30/hello-world/" rel="prev" title="Hello World">
+      <i class="fa fa-chevron-left"></i> Hello World
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -273,6 +288,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">使用方式</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
